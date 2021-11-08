@@ -29,6 +29,10 @@ if (isset($_GET['id'])) {
 </head>
 
 <body style="width: 1000px;">
+
+    <h1>Mon poste <?php echo $id ?></h1><br>
+    <p>Voici la desciption : </p>
+    <p><?php echo $table_bdd[1]['description'] ?></p>
     <table class="table table-striped">
         <thead>
             <tr>
